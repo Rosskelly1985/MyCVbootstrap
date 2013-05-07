@@ -1,0 +1,59 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+
+
+body {
+	background: url("../images/bgblue.jpg") repeat scroll 0 0 transparent;
+	
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+	
+	
+		
+	
+	
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) 
+{
+
+	body {
+	.row.header
+{
+	colors #000;
+	line height: 20px;
+	
+background: #ffa147;
+	
+text-align: center;
+	
+margin: 5px 0 0 0;
+	/*border: 1px solid #000; */
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	
+.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+} 
+
+[fancy_link link = '#']Text[/fancy_link][download_link link = '#']Text[/download_link][email_link email="you@company.com"]Text[/email_link]
